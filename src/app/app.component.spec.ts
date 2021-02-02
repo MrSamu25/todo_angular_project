@@ -26,10 +26,4 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('todoProject');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('todoProject app is running!');
-  });
 });
